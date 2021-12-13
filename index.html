@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- reset  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- css --> 
+    <link rel="stylesheet" href="style.css">
+
+    <!-- flickity css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="single.html">Single</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+        <div class="cta">
+            <a href="" class="button">Contatti</a>
+        </div>
+
+        <!-- hamburger menu -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+    <!-- /header -->
+
+
+    <!-- hero -->
+    <div class="hero">
+        <div class="hero__content reveal">
+            <p class="intro-text">Intro text</p>
+            <h1 class="big-text">Titolo della mia pagina web</h1>
+            <a href="" class="button">Discover more</a>
+        </div>
+        <video autoplay muted loop id="video-back">
+            <source src="ufficio-video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- /hero -->
+
+
+    <!-- poster -->
+    <div class="poster mt-3">
+
+        <div class="poster__img reveal">
+            <img src="ufficio.jpg" alt="">
+        </div>
+        <div class="poster__content reveal">
+            <h3 class="big-text">Titolo poster</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perspiciatis quidem eaque ut fugiat animi illum odit, repellendus et. In nihil itaque debitis similique omnis voluptates ipsum necessitatibus obcaecati beatae?
+            </p>
+            <a href="" class="button">Call to action</a>
+        </div>
+
+    </div>
+    <!-- /poster -->
+
+
+    <!-- background-cover -->
+    <div class="bg-cover mt-3">
+        <div class="bg-cover__title">
+            <h3 class="big-text tw reveal">Titolo del mio blocco cover</h3>
+        </div>
+        <div class="bg-cover__text reveal">
+
+            <h4 class="tw normal-text">Titolo del mio paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus cupiditate blanditiis perferendis iste natus ab mollitia numquam ipsa obcaecati, et quisquam eligendi fuga, voluptate quis cum, similique ipsum nam cumque.</p>
+
+            <h4 class="tw normal-text">Titolo del mio paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus cupiditate blanditiis perferendis iste natus ab mollitia numquam ipsa obcaecati, et quisquam eligendi fuga, voluptate quis cum, similique ipsum nam cumque.</p>
+
+            <h4 class="tw normal-text">Titolo del mio paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus cupiditate blanditiis perferendis iste natus ab mollitia numquam ipsa obcaecati, et quisquam eligendi fuga, voluptate quis cum, similique ipsum nam cumque.</p>
+
+        </div>
+    </div>
+    <!-- /background-cover -->
+
+
+    
+    <div class="grid mt-3">
+        <div class="col reveal">
+            <h3 class="big-text"> Lorem ipsum <br> sia amet</h3>
+        </div>
+        <div class="col reveal">
+            <p class="mt-2 mt-sma-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam tempora explicabo ipsum sed hic ipsa? Aut omnis dicta eveniet totam nostrum. Quidem quasi autem deleniti quae veritatis provident facere.</p>
+
+        </div>
+    </div>
+    
+
+
+    <!-- Carousel -->
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">Testo</div>    
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">Testo</div>    
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">Testo</div>    
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">Testo</div>    
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">Testo</div>    
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content ">Testo</div>    
+        </div>
+        
+        
+    </div>
+    <!-- /Carousel -->
+
+
+    <!-- Panel blue -->
+    <div class="grid panel-blue mt-3">
+
+        <div class="col panel-blue__dots">
+            <div class="dot zoom"> text </div>
+            <div class="dot zoom"> text </div>
+            <div class="dot zoom"> text </div>
+            <div class="dot zoom"> text </div>
+        </div>
+
+        <div class="col panel-blue__text">
+            <div class="grid">
+                <div class="col reveal">
+                    <h3 class="big-text tw">Lorem ipsum </h3>
+                </div>
+                <div class="col reveal">
+                    <p class="tw mt-2 mt-sma-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, pariatur exercitationem laborum ducimus, unde id numquam necessitatibus consectetur voluptatibus, ipsa laudantium itaque est nostrum accusamus temporibus veniam in tenetur architecto.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Panel blue -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="grid">
+            <div class="col reveal">
+                <h4 class="normal-text tw">Lorem ipsum </h4>
+                <p>Lorem ipsum des ...</p>
+            </div>
+            <div class="col reveal">
+                <h4 class="normal-text tw">Lorem ipsum </h4>
+                <p>Lorem ipsum des ...</p>
+            </div>
+            <div class="col reveal">
+                <h4 class="normal-text tw">Lorem ipsum </h4>
+                <p>Lorem ipsum des ...</p>
+            </div>
+            <div class="col reveal">
+                <h4 class="normal-text tw">Lorem ipsum </h4>
+                <p>Lorem ipsum des ...</p>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+
+
+
+    
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+
+    <!-- cdn flickity -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $( document ).ready(function() {
+            
+            /* toggle */
+            $( ".hamburger").on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
+            /* /toggle */
+            
+
+        });
+
+        
+        ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600, });
+
+        ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+
+    </script>
+    
+</body>
+</html>
